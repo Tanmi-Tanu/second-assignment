@@ -285,7 +285,6 @@ body{
     color: #131313;
     margin-bottom: 24px;
 }
-
 input{
     border: 0;
     padding: 18px 30px;
@@ -318,7 +317,7 @@ input{
 /*-------Responsive Area-----*/
 @media only screen and (max-width: 800px){
 
-    .container, .quick-features-area, .blog-areas, .facts{
+    .container, .quick-features-area, .blog-areas, .facts, .form-area{
         width: 100%;
     }
    .header-area img, .header-info{
@@ -390,7 +389,7 @@ input{
 }
 @media only screen and (max-width: 500px){
 
-    .container, .quick-features-area, .features-info, .blog-areas, .facts{
+    .container, .quick-features-area, .features-info, .blog-areas, .facts, .form-area{
         width: 100%;
     }
    .header-area img, .header-info{
