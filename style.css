@@ -316,7 +316,7 @@ input{
 }
 
 /*-------Responsive Area-----*/
-@media only screen and (max-width: 800px){
+@media only screen and (max-width:800px){
 
     .container, .quick-features-area, .blog-areas, .facts, .form-area{
         width: 100%;
