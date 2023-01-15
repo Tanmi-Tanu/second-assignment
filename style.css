@@ -300,6 +300,7 @@ input{
     border: 0;
     padding: 16px 30px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 /*-------Footer style-----*/
 .footer-area{
@@ -318,7 +319,7 @@ input{
 @media only screen and (max-width: 800px){
 
     .container, .quick-features-area, .blog-areas, .facts, .form-area{
-        width: 100%;
+        width: 90%;
     }
    .header-area img, .header-info{
         width: 100%;
@@ -390,7 +391,7 @@ input{
 @media only screen and (max-width: 500px){
 
     .container, .quick-features-area, .features-info, .blog-areas, .facts, .form-area{
-        width: 100%;
+        width: 80%;
     }
    .header-area img, .header-info{
         width: 100%;
