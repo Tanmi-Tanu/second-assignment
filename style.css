@@ -270,24 +270,22 @@ body{
 .sponspors-image img{
     filter: grayscale(1);
 }
-/* Feature Area Style*/
-.featuress-area{
-    background-color: #FFF4E7;
-    margin-top: 40px;
+/* Form Area Style*/
+.form-area{
+    background-color: #FF900E;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.featuress-title{
+.forms-title{
     font-weight: 700;
-    font-size: 45px;
-    color: #0000;
-    margin-bottom: 15px;
+    font-size: 38px;
+    color: #131313;
+    margin-bottom: 24px;
 }
-.form-title{
-    font-weight: 600;
-    font-size: 25px;
-    color: #0000;
-    margin-bottom: 15px;
-    margin-top: 60px;
-}
+
 input{
     border: 0;
     padding: 18px 30px;
@@ -297,13 +295,12 @@ input{
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
-    background: #005FAC;
+    background: #727272;
     width: 170px;
     height: 54px;
     border: 0;
     padding: 16px 30px;
     border-radius: 5px;
-    margin-top: 10px;
 }
 /*-------Footer style-----*/
 .footer-area{
