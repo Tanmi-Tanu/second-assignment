@@ -358,7 +358,7 @@ body{
 }
 @media only screen and (max-width: 500px){
 
-    .container, .quick-features-area, .blog-areas, .facts{
+    .container, .quick-features-area, .features-info, .blog-areas, .facts{
         width: 100%;
     }
    .header-area img, .header-info{
@@ -367,17 +367,20 @@ body{
     .nav-menu{
         padding: 0 10px;
     }
+    .nav-menu{
+        flex-direction: column;
+        gap: 20px;
+    }
     .quick-features-area{
         display: flex;
         flex-direction: column;
     }
-    .features-info{
-        padding-left: 0;
-        margin-left: 0;
+    /*-------Features Responsive Area-----*/
+    .features-img{
+        grid-template-columns: repeat(1, 1fr);
     }
-    .image img{
-        width: 100%;
-        margin-top: 20px;
+    .features-info{
+        padding-left: 20px;
     }
     /*-------Blog Responsive Area-----*/
     .blog-areas{
@@ -396,6 +399,10 @@ body{
     .box{
         margin-top: -80px;
         text-align: center;
+    }
+    .image img{
+        width: 100%;
+        margin-top: 20px;
     }
     .des{
         font-size: 22px;
