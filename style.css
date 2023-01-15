@@ -270,6 +270,41 @@ body{
 .sponspors-image img{
     filter: grayscale(1);
 }
+/* Feature Area Style*/
+.featuress-area{
+    background-color: #FFF4E7;
+    margin-top: 40px;
+}
+.featuress-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #0000;
+    margin-bottom: 15px;
+}
+.form-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #0000;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+input{
+    border: 0;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+#button{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #005FAC;
+    width: 170px;
+    height: 54px;
+    border: 0;
+    padding: 16px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 /*-------Footer style-----*/
 .footer-area{
     background: #FFF4E7;
